@@ -1,5 +1,5 @@
 #include<stdio.h>  
-#include<conio.h>  
+#include<stdlib.h>  
   
 void main()  
 {  
@@ -64,5 +64,5 @@ avg_wt = wt * 1.0/NOP;
 avg_tat = tat * 1.0/NOP;  
 printf("\n Average Turn Around Time: \t%f", avg_wt);  
 printf("\n Average Waiting Time: \t%f", avg_tat);  
-getch();  
+
 }  
